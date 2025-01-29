@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
@@ -9,15 +9,15 @@ const default_config = {
   },
   clock: {
     format: "h:i p",
-    iconColor: palette.maroon,
+    iconColor: palette.sapphire,
   },
   disabled: [],
   fastlink: "https://app.raindrop.io",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
+      name: "Abstract",
+      background_url: "src/img/banners/cbg-14.gif",
       categories: [
         {
           name: "bookmarks",
@@ -104,7 +104,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-07.gif",
+      background_url: "src/img/banners/cbg-05.gif",
       categories: [
         {
           name: "development",
@@ -191,7 +191,7 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-08.gif",
+      background_url: "src/img/banners/cbg-11.gif",
       categories: [
         {
           name: "social media",
@@ -283,4 +283,4 @@ const CONFIG = new Config(default_config, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.green);
+root.style.setProperty("--accent", palette.mauve);
